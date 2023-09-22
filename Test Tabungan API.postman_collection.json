@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "aec9bbaf-f35a-48f7-8095-d437be2659c0",
+		"name": "Test Tabungan API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3534900"
+	},
+	"item": [
+		{
+			"name": "daftar",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"connection": true,
+					"accept-encoding": true,
+					"accept": true,
+					"user-agent": true,
+					"host": true,
+					"content-type": true
+				}
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://gadingos.gbu.net.id/api/daftar?name=dada&nik=2134234&hp=083445654",
+					"protocol": "https",
+					"host": [
+						"gadingos",
+						"gbu",
+						"net",
+						"id"
+					],
+					"path": [
+						"api",
+						"daftar"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "dada"
+						},
+						{
+							"key": "nik",
+							"value": "2134234"
+						},
+						{
+							"key": "hp",
+							"value": "083445654"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saldo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tarik",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gadingos.gbu.net.id/api/tarik?nomor_rekening=816645&nominal=200000",
+					"protocol": "https",
+					"host": [
+						"gadingos",
+						"gbu",
+						"net",
+						"id"
+					],
+					"path": [
+						"api",
+						"tarik"
+					],
+					"query": [
+						{
+							"key": "nomor_rekening",
+							"value": "816645"
+						},
+						{
+							"key": "nominal",
+							"value": "200000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tabung",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gadingos.gbu.net.id/api/tabung?nomor_rekening=8166451&nominal=200000",
+					"protocol": "https",
+					"host": [
+						"gadingos",
+						"gbu",
+						"net",
+						"id"
+					],
+					"path": [
+						"api",
+						"tabung"
+					],
+					"query": [
+						{
+							"key": "nomor_rekening",
+							"value": "8166451"
+						},
+						{
+							"key": "nominal",
+							"value": "200000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

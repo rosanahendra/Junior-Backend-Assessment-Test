@@ -1,0 +1,5 @@
+PANDUAN :
+File terdiri dari :
+1. Folder & File Laravel
+2. File Database -> File : database_test.sql
+3. File postman collection untuk uji coba API secara live -> File : Test Tabungan API.postman_collection
